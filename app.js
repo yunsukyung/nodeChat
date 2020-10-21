@@ -18,7 +18,7 @@ const io = socket(server)
 
 // Get 방식으로 / 경로에 접속하면 실행 됨
 app.get('/', function(request, response){
-    console.log('유저가 / 으로 접속하였습니다!')
+    console.log('유저가 / 으로 접속하였습니다!!')
     response.send('Hello, Express Server!!')
 })
 
