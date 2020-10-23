@@ -20,7 +20,7 @@
     background-color: lightcoral;
     text-align: center;
     margin-top: 10px;
-    display: block;
+    display: inline-block;
 }
 
 .disconnect {
@@ -29,7 +29,7 @@
     background-color: lightcoral;
     text-align: center;
     margin-top: 10px;
-    display: block;
+    display: inline-block;
 }
 
 .me {
@@ -40,7 +40,6 @@
     margin-top: 10px;
     float: right;
     margin-right: 10px;
-    display: block;
 }
 
 .other {
@@ -51,5 +50,4 @@
     margin-top: 10px;
     float: left;
     margin-left: 10px;
-    display: block;
 }
