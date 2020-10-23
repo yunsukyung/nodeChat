@@ -1,0 +1,55 @@
+#main {
+    margin: auto;
+    margin-top: 100px;
+    background-color: lightblue;
+    text-align: center;
+    width: 400px;
+    height: 500px;
+    border-radius: 20px;
+}
+
+#chat {
+    height: 90%;
+    width: 100%;
+    overflow-y: auto;
+}
+
+.connect {
+    width: 90%;
+    margin: auto;
+    background-color: lightcoral;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+}
+
+.disconnect {
+    width: 90%;
+    margin: auto;
+    background-color: lightcoral;
+    text-align: center;
+    margin-top: 10px;
+    display: block;
+}
+
+.me {
+    width: 70%;
+    margin: auto;
+    background-color: lemonchiffon;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: right;
+    margin-right: 10px;
+    display: block;
+}
+
+.other {
+    width: 70%;
+    margin: auto;
+    background-color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+    float: left;
+    margin-left: 10px;
+    display: block;
+}
