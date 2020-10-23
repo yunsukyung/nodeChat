@@ -3,7 +3,7 @@ var socket = io()
 //접속 되었을 때 실행
 socket.on('connect', function() {
     //이름 입력받기
-    var name = prompt('반값습니다!', '')
+    var name = prompt('반갑습니다!', '')
 
     //이름이 빈칸인 경우
     if(!name) {
@@ -56,3 +56,4 @@ function send(){
     //서버로 message 이벤트 전달 + 데이터와 함께
     socket.emit('message', {type: 'message', message: message})
 }
+

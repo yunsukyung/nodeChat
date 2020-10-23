@@ -12,10 +12,9 @@
     <div id="main">
         <!-- 채팅 메시지 영역 -->
         <div id="chat">
-
         </div>
-        <input type="text" id="test" placeholder="메시지를 입력해주세요.">
-        <button onclick="send()">전송</button>
+    <input type="text" id="test" onkeyup="if(event.keyCode == 13){send();}" placeholder="메시지를 입력해주세요.">
+        <button id="submitBtn" onclick="send()">전송</button>
     </div>
 </body>
 </html>
